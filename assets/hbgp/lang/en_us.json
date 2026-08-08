@@ -3,9 +3,11 @@
     "item.hbgp.wood": "Rails with Wood Ties", 
     "item.hbgp.lok_d1": "HBG Lok D1", 
     "item.hbgp.nobogie": "No Bogie", 
-    "item.hbgp.wag1": "HBG Wagon 1 (Boxcar)",
-    "item.hbgp.wag2": "HBG Wagon 2 (Gondola)",
-    "item.hbgp.wag3": "HBG Wagon 3 (Flatcar)",
+    "item.hbgp.wag1": "HBG Wagon 1 (Boxcar)", 
+    "item.hbgp.wag2": "HBG Wagon 2 (Gondola)", 
+    "item.hbgp.wag3": "HBG Wagon 3 (Flatcar)", 
     "item.hbgp.wag3_bulkhead": "HBG Wagon 3 Bulkhead", 
-    "item.hbgp.wag3_centerbeam": "HBG Wagon 3 Center Beam"
+    "item.hbgp.wag3_centerbeam": "HBG Wagon 3 Center Beam", 
+    "item.hbgp.wag4": "HBG Wagon 4 (Hoppercar)", 
+    "item.hbgp.wag4_cover": "HBG Wagon 4 Cover"
 }

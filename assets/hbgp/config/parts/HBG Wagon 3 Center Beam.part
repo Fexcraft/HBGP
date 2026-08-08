@@ -1,7 +1,7 @@
 { 
     "ID": "wag3_centerbeam", 
     "Name": "HBG Wagon 3 Center Beam", 
-    "Addon": "hbgp"
+    "Addon": "hbgp",
     "Category": "centerbeam",
     "Model": "hbgp:models/part/wag3_centerbeam.bob",
     "ModelData":{

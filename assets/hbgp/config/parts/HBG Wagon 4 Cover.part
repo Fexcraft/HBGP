@@ -1,0 +1,15 @@
+{ 
+    "ID": "wag4_cover", 
+    "Name": "HBG Wagon 4 Cover", 
+    "Addon": "hbgp"
+    "Category": "hopper_cover",
+    "Model": "hbgp:models/part/wag4_cover.bob",
+    "ModelData":{
+        "Programs":[
+            "cover fvtm:rgb_channel primary",
+        ]
+    },
+    "Textures": [
+        "Default;hbgp:textures/vehicle/wag4.png"
+    ]
+}

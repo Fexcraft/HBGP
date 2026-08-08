@@ -1,14 +1,14 @@
 { 
     "ID": "wag3_bulkhead", 
     "Name": "HBG Wagon 3 Bulkhead", 
-    "Addon": "hbgp"
-    "Category": "bulkhead"
+    "Addon": "hbgp",
+    "Category": "bulkhead",
     "Model": "hbgp:models/part/wag3_bulkhead.bob",
     "ModelData":{
         "Programs":[
             "bulkhead fvtm:rgb_channel primary",
         ]
-    }
+    },
     "Textures": [
         "Default;hbgp:textures/vehicle/wag3.png"
     ]

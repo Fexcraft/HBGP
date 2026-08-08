@@ -1,0 +1,6 @@
+{ 
+    "model": { 
+        "type": "minecraft:model", 
+        "model": "hbgp:item/wag4_cover"
+    }
+}
