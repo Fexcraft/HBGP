@@ -1,0 +1,6 @@
+{ 
+    "model": { 
+        "type": "minecraft:model", 
+        "model": "hbgp:item/lok_d1"
+    }
+}

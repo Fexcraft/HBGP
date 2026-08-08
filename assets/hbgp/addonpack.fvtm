@@ -1,0 +1,13 @@
+{ 
+    "ID": "hbgp", 
+    "Name": "Half Block Gauge Pack", 
+    "Version": "1.0.0", 
+    "License": "All Rights Reserved", 
+    "Dependencies": [ 
+        "gep"
+    ], 
+    "Authors": [ 
+        "Ferdinand"
+    ], 
+    "#info": "File created via FMT."
+}

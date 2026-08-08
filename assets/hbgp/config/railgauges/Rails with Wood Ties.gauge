@@ -1,0 +1,28 @@
+{ 
+    "ID": "wood", 
+    "Name": "Rails with Wood Ties", 
+    "Addon": "hbgp",
+    "Model": "hbgp:models/gauge/wood.bob",
+    "ModelData":{
+        "TiesDistance": 0.5,
+        "Rails":{
+            "def": {
+                "scale": 0.0625,
+                "pos": [ 4, 1 ],
+                "size": [ 2, 1 ],
+                "mirror": true,
+                "v": [ 0, 1, 0.5 ]
+            }
+        }
+    },
+    "Width": 0.5,
+    "Height": 0.125,
+    "TiesTexture": "hbgp:textures/gauge/wood.png",
+    "RailTexture": "hbgp:textures/gauge/rail.png",
+    "UseMaterials":{
+		"#c:ingots/iron": 0.2,
+		"#minecraft:planks": 0.2,
+		"#ingotIron": 0.2,
+		"#plankWood": 0.2
+    }
+}

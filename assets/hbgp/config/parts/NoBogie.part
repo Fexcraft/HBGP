@@ -1,0 +1,17 @@
+{
+    "ID": "nobogie",
+    "Addon": "hbgp",
+    "Model": "null",
+    "Name": "No Bogie",
+    "Description":[
+        "Logical bogie without model."
+    ]
+    "Category": "bogie",
+    "Installation":{
+        "Handler": "bogie",
+        "Height": 0.125
+    },
+    "Functions":{
+        "fvtm:bogie":{}
+    }
+}

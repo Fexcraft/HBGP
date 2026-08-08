@@ -1,0 +1,19 @@
+[ 
+    { 
+    "modid": "hbgp", 
+    "name": "Half Block Gauge Pack", 
+    "description": "A pack for FVTM", 
+    "version": "1.0.0", 
+    "mcversion": "*", 
+    "url": "https://fexcraft.net/wiki/mod/fvtm", 
+    "authorList": [ "FEX___96" ],
+    "credits": "Created using FMT", 
+    "logoFile": "", 
+    "screenshots": [], 
+    "dependencies": [ 
+        "fcl", 
+        "fvtm"
+    ]
+}
+
+]
