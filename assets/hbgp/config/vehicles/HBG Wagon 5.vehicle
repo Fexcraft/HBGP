@@ -58,5 +58,18 @@
             "access": [ "external" ]
             "pos": [ 0, 1, 0.75 ]
         }
+    },
+    "Catalog": {
+        "default": {
+            "name": "Default",
+            "colors": {
+                "primary": "ffffff"
+            },
+            "recipe": {
+                "gep:chassis_components": 7,
+                "gep:lights_set": 2,
+                "gep:electric_components": 1
+            }
+        }
     }
 }

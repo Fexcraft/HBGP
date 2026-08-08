@@ -68,5 +68,47 @@
         "centerbeam": {
             "pos": [ 0, 1.5, 0 ]
         }
+    },
+    "Catalog": {
+        "default": {
+            "name": "Default",
+            "colors": {
+                "primary": "ffffff"
+            },
+            "recipe": {
+                "gep:chassis_components": 4,
+                "gep:lights_set": 2,
+                "gep:electric_components": 2
+            }
+        },
+        "bulkhead": {
+            "name": "With Bulkhead",
+            "colors": {
+                "primary": "ffffff"
+            },
+            "parts": {
+                "vehicle:bulkhead": "hbgp:wag3_bulkhead"
+            },
+            "recipe": {
+                "gep:chassis_components": 6,
+                "gep:lights_set": 2,
+                "gep:electric_components": 2
+            }
+        },
+        "centerbeam": {
+            "name": "With Bulkhead and Centerbeam",
+            "colors": {
+                "primary": "ffffff"
+            },
+            "parts": {
+                "vehicle:bulkhead": "hbgp:wag3_bulkhead",
+                "vehicle:centerbeam": "hbgp:wag3_centerbeam"
+            },
+            "recipe": {
+                "gep:chassis_components": 6,
+                "gep:lights_set": 2,
+                "gep:electric_components": 1
+            }
+        }
     }
 }

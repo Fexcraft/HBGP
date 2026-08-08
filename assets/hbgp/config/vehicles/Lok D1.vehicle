@@ -53,5 +53,20 @@
             "pos": [ 0, 0.8125, 1.25 ],
             "driver": true
         }
+    },
+    "Catalog": {
+        "default": {
+            "name": "Default",
+            "colors": {
+                "primary": "ffffff"
+            },
+            "recipe": {
+                "gep:door_set": 1,
+                "gep:chassis_components": 8,
+                "gep:lights_set": 2,
+                "gep:electric_components": 2,
+                "gep:seat_set": 1
+            }
+        }
     }
 }

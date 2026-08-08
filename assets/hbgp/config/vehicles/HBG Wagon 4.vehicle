@@ -67,4 +67,31 @@
             "pos": [ 0, 1.5, 0 ]
         }
     }
+    "Catalog": {
+        "default": {
+            "name": "Default",
+            "colors": {
+                "primary": "ffffff"
+            },
+            "recipe": {
+                "gep:chassis_components": 7,
+                "gep:lights_set": 2,
+                "gep:electric_components": 2
+            }
+        },
+        "cover": {
+            "name": "With Cover",
+            "colors": {
+                "primary": "ffffff"
+            },
+            "parts": {
+                "vehicle:hopper_cover": "hbgp:wag4_cover"
+            },
+            "recipe": {
+                "gep:chassis_components": 8,
+                "gep:lights_set": 2,
+                "gep:electric_components": 1
+            }
+        }
+    }
 }
