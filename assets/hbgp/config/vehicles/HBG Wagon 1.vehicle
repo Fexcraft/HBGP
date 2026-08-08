@@ -1,0 +1,66 @@
+{ 
+    "ID": "wag1", 
+    "Name": "HBG Wagon 1", 
+    "Addon": "hbgp",
+    "Model": "hbgp:models/vehicle/wag1.bob",
+    "ModelData": {
+        "Programs": [
+            "primary fvtm:rgb_channel primary",
+            "secondary fvtm:rgb_channel secondary",
+            "lights_forward fvtm:lights_rail_forward",
+            "lights_reverse fvtm:lights_rail_backward"
+        ],
+    },
+    "Textures": [
+        "Default;hbgp:textures/vehicle/wag1.png"
+    ],
+    "ColorChannels": {
+        "primary": "#ffffff"
+        "secondary": "#ffffff"
+    },
+    "VehicleType": "RAIL",
+    "Wagon": true,
+    "Attributes": {
+        "weight": {
+            "type": "float",
+            "value": 500
+        },
+        "gauge": {
+            "type": "float",
+            "value": 0.5
+        }
+    },
+    "WheelPositions": {
+        "bogie_front": {
+            "pos": [ 0, 0, -0.5 ]
+        },
+        "bogie_rear": {
+            "pos": [ 0, 0, 0.5 ]
+        }
+    },
+    "Connectors":{
+        "rear": [ 0, 0.5, 1.6875 ],
+        "front": [ 0, 0.5, -1.6875 ]
+    },
+    "CouplerRange": 0.05,
+    "InstalledParts": {
+        "bogie_front": "hbgp:nobogie",
+        "bogie_rear": "hbgp:nobogie",
+    },
+    "Inventories":{
+        "cargo_front": {
+            "type": "items",
+            "rows": 6,
+            "cols": 9,
+            "access": [ "external" ],
+            "pos": [ 0, 1, -0.75 ]
+        }
+        "cargo_rear": {
+            "type": "items",
+            "rows": 6,
+            "cols": 9,
+            "access": [ "external" ]
+            "pos": [ 0, 1, 0.75 ]
+        }
+    }
+}
